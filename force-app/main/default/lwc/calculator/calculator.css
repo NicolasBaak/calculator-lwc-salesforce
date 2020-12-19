@@ -1,0 +1,40 @@
+
+.template{
+    margin: 0;
+    padding: 0;
+}
+.c-container {
+    border: 5px solid #d8dde6;
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+     width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-radius: 5%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 6px 12px -2px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 1px 6px 12px -2px rgba(0,0,0,0);
+}
+
+.resultado{
+    
+background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #ffffff, #cfdacf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 5px solid #d8dde6;
+    color: rgba(56, 55, 55);
+    padding: 9px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.pantalla{
+    margin: 0;
+    padding: 0;
+    background: #53535354;
+    border: 1px solid #90949b;
+}

@@ -1,0 +1,171 @@
+<template>
+    <div class="c-container">
+     <div class="pantalla">
+        <lightning-layout-item padding="around-small" size="12">
+          <div class="page-section page-header resultado">
+           
+              <div class="">{pantalla}</div>
+           
+          </div>
+        </lightning-layout-item>
+    </div>
+    <div class="pantalla">
+        <lightning-layout multiple-rows class="teclas">
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="7"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="8"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="9"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="success"
+              label="+"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+        </lightning-layout>
+    
+        <lightning-layout multiple-rows>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="4"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="5"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="6"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="success"
+              label="-"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+        </lightning-layout>
+    
+        <lightning-layout multiple-rows>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="1"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="2"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="3"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="success"
+              label="x"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+        </lightning-layout>
+    
+        <lightning-layout multiple-rows>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="0"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="brand"
+              label="."
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="destructive"
+              label="="
+              title="Primary action"
+              onclick={calcularpantalla}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item size="3" padding="around-small">
+            <lightning-button
+              variant="success"
+              label="÷"
+              title="Primary action"
+              onclick={handleClick}
+              class="slds-m-around_xxx-small"
+            ></lightning-button>
+          </lightning-layout-item>
+        
+        </lightning-layout>
+    </div>
+      </div>
+</template>
